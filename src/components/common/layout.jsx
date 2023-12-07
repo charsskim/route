@@ -1,7 +1,8 @@
-export default function Layout({ children, title }) {
+export default function layout({ children, title }) {
 	return (
 		<main className={`layout ${title}`}>
-			<h2>{title}</h2>
+			<figure className='subVisual'></figure>
+			<h1>{title}</h1>
 			{children}
 		</main>
 	);

@@ -1,10 +1,14 @@
 @import 'reset';
 @import './common/Header';
+@import './common/layout';
+@import './common/Footer';
 @import './main/visual';
 @import './main/news';
-@import './common/Footer';
 @import './sub/department';
 @import './sub/gallery';
 @import './sub/location';
 @import './sub/youtube';
-@import './common/layout';
+
+/*sass 순서 중요 
+큰틀에서 디테일 순서
+*/
