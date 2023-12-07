@@ -1,7 +1,9 @@
+import Layout from '../common/layout';
+
 export default function Department() {
 	return (
-		<main className='layout department'>
-			<h1>Department</h1>
-		</main>
+		<Layout title={'Department'}>
+			<p>Department Page Content</p>
+		</Layout>
 	);
 }
